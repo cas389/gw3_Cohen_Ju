@@ -244,6 +244,23 @@ figure {
 
 /*===========================
 
+Footer
+
+===========================*/
+
+footer {
+  background: #e35d93;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+/*===========================
+
 Responsive Web Coding - 768px by 1024px (Tablet)
 
 ===========================*/
