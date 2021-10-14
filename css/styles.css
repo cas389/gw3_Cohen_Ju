@@ -145,6 +145,103 @@ Responsive Web Coding - 562 (Custom for Navigation)
   }
 }
 
+
+/*===========================
+
+Headers and Paragraph Styling and Regular Links
+
+===========================*/
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Pecita', script;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #e35d93;
+  text-shadow: 0 0 .5rem darkgray;
+  padding-top: 1rem;
+}
+h2,
+h3 {
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3,
+h4 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  color: #e35d93;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.25rem;
+}
+
+.home-text a,
+.about-paragraphs a {
+  color: #e35d93;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.home-text a:hover,
+.about-paragraphs a:hover {
+  color: black;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  text-decoration: overline;
+}
+
+/*===========================
+
+Main Home Section
+
+===========================*/
+main {
+	clear: both;
+  background: white;
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.home-text {
+  text-align: center;
+  margin: 1rem auto;
+  width: 80%;
+  padding-bottom: 2rem;
+}
+
+.home-images {
+  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+.home-images img {
+  width: 100%;
+  padding: 1rem 1rem 0 1rem;
+}
+
+figure {
+  background: #faefff;
+  margin: 1rem;
+}
+
 /*===========================
 
 Responsive Web Coding - 768px by 1024px (Tablet)
