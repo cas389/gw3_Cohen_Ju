@@ -129,23 +129,6 @@ nav input:checked~.menu-items {
 }
 
 
-
-
-/*===========================
-
-Responsive Web Coding - 562 (Custom for Navigation)
-
-===========================*/
-@media screen and (min-width: 565px) {
-  .menu-items {
-    padding: 7.1rem 1rem 1rem 1rem;
-  }
-  .logo {
-    max-width: 40%;
-  }
-}
-
-
 /*===========================
 
 Headers and Paragraph Styling and Regular Links
@@ -241,6 +224,7 @@ figure {
   background: #faefff;
   margin: 1rem;
 }
+
 .heart {
   margin: 0 auto;
   font-family: 'Source Sans Pro', sans-serif;
