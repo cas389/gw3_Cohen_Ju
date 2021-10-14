@@ -241,6 +241,18 @@ figure {
   background: #faefff;
   margin: 1rem;
 }
+.heart {
+  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  animation: heartbeat 1s infinite;
+  padding-bottom: 2rem;
+}
+
+.heart img {
+  width: 10%;
+}
 
 /*===========================
 
