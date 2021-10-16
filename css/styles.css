@@ -238,8 +238,63 @@ figure {
   width: 10%;
 }
 
+/*===========================
 
+Islanders Section
 
+===========================*/
+.hvrbox-text {
+  padding-bottom: 1rem;
+  font-size: 1.10rem;
+}
+
+.islanders-text {
+  text-align: justify;
+  margin: 1rem auto;
+  width: 80%;
+  padding-bottom: 2rem;
+}
+
+.islanders-flexbox {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.islanders-flexbox img{
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease;
+  width: 100%;
+}
+
+.islanders-flexbox img:hover{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 1s ease;
+}
+
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+  padding: 5%
+}
+
+.fotorama {
+  margin: auto;
+  width: 90%;
+  padding-bottom: 2rem;
+}
 
 /*===========================
 
